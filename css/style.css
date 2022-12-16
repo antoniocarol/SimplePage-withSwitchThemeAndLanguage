@@ -1,0 +1,133 @@
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  background-color: #015D57;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header .content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1920px;
+  height: 60px;
+  padding: 0 80px;
+}
+
+header .content-header #pag-title {
+  display: inline-block;
+
+  font-family: "Rubik Mono One", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(91, 216, 28);
+  text-shadow: rgb(0, 0, 0) -6px 2px 2px;
+
+  cursor: pointer;
+
+  transition: all 0.8s;
+}
+
+header .content-header #pag-title:hover {
+  color: rgb(60, 131, 22);
+}
+
+
+header .content-header>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .content-header .icons-area {
+  display: flex;
+  margin-left: 64px;
+}
+
+header .content-header .icons-area img {
+  width: 32px;
+  height: auto;
+  margin-left: 8px;
+
+  cursor: pointer;
+}
+
+header .content-header .icons-area img:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 1920px;
+
+  padding: 32px 80px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 32px;
+  color: black;
+}
+
+article img {
+  width: 1280px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 2s;
+}
+
+article p {
+  text-align: justify;
+  opacity: 0.7;
+
+}
+
+article ul {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+article ul li {
+  opacity: 0.7;
+  list-style: none;
+  cursor: pointer;
+}
+
+article ul li:hover {
+  color: rgb(156, 213, 140);
+
+
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+footer {
+  height: 300px;
+  color: black;
+}
